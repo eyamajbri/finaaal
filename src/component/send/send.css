@@ -43,7 +43,7 @@ form .corps .droite input{
     padding: 10px;
 }
 .buttonxx{
-    width: 10vw;
+    width: fit-content;
     padding: 10px;
    margin: auto;
 background-color: #204646;

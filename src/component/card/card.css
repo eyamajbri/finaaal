@@ -2,7 +2,7 @@
 .Card-Box{
     background-color: #F8FAF0;
     border-radius: 20px;
-    height: 30vh; 
+    min-height: 30vh; 
     /* width: 20vw; */
     padding: 20px;
     display: flex;
@@ -18,7 +18,8 @@
 }
 
 .parag{
-    font-size: 0.9vw;
+    width: 	100%;
+    font-size: 1.5vw;
     font-weight:550;
     text-align: center;
     line-height: 1.6em;
@@ -34,13 +35,17 @@
  .cards-container{
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
-    height: max-content;
+    gap: 1.75em;
+    height: fit-content;
+    
 
  }
  .Card-Box{
-    width: max-content;
+    width: fit-content;
  }
+ .parag{
+    font-size: 2vw;
+}
 }
 @media screen and (max-width:1070px) {
     
